@@ -6,4 +6,12 @@
 
 # Hier start de for-loop....
 
-my_list = []
+# Maak een lege lijst
+getallen = []
+
+# Gebruik een loop om de lijst te vullen met getallen van 1 t/m 10
+for i in range(1, 11):
+    getallen.append(i)
+
+# Print de lijst
+print(getallen)

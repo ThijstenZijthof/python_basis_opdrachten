@@ -6,7 +6,9 @@
 
 # Hier start de for-loop....
 
-my_list = []
+numbers = []
+for i in range(1, 11):  # Loop van 1 tot 10
+    numbers.append(i)   # Voeg het getal toe aan de lijst
 
-#for loop
-#if statement
+    if i > 4:  # Controleer of het getal groter is dan 4
+        print(i)  # Print het getal als het groter is dan 4
